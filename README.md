@@ -1,13 +1,24 @@
-# Amstrad CPC Disk menu file
+# 8 bit Disk Menu File
+
+## Amstrad CPC
 
 DISC.BAS file to add to your Amstrad CPC compilations.
-![Amstrad CPC disc menu example](https://2.bp.blogspot.com/-HZktcB4S1gc/XOROGyfWrJI/AAAAAAAAPSk/UN6mrzxjryYxQ9QmIqxPwNgZRVb3aFgLwCLcBGAs/s640/cpcdiscmenu.png)
+
+![Amstrad CPC disc menu example](graphics/amstradcpc.png)
+
+
+## ZX Spectrum +3
+
+DISK file to add to your ZX Spectrum +3 compilations.
+
+![ZX Spectrum +3 disc menu example](graphics/zxspectrum.png)
+
+Support autoboot from menu, you must save with the command:
+``SAVE"DISK" LINE 0``
 
 ## How to use
-1. [Download from here](https://github.com/cpcbegin/cpcdiskmenu/raw/master/DISC.BAS).
-2. Alter lines 50 and 230 with your own data.
-3. Copy to an Amstrad CPC disc or inyect it in a DSK file to use with an Amstrad CPC emulator.
+1. Download the correct file to add to your DSK file: cpc/disc.bas or zxspectrum/disk.
+2. Alter final lines with your own DATA.
+3. Copy the file to a real disc to use in real hardware or inject into a DSK image file with DATA format to use in an emulator.
 
-Notice: this software may be buggy, if you detect a bug comment in [issues section](https://github.com/cpcbegin/cpcdiskmenu/issues).
-
-Look in [CPCWiki Emulation tools section](http://www.cpcwiki.eu/index.php/Emulators#Emulation_Tools) in you don¡t know how to add this file to a real CPC disc or a DSK image.
+Notice: this software may be buggy, if you detect a bug comment in issues section.
